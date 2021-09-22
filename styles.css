@@ -1,0 +1,252 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /* font: inherit; */
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+body, html { overflow-x:hidden; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+#hublogo {
+  /* width: 100px; */
+  height: 45px;
+  padding: 6px;
+}
+
+#container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.content {
+  width: 90%;
+  /* margin-left: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#infos-app {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#header {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inalogo {
+  width: 80px;
+  margin-right: 30px;
+}
+
+#title-app {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+#subtitle-app {
+  /* font-size: 20px; */
+  color: gray;
+}
+#vertion-app {
+  /* font-size: 20px; */
+  color: gray;
+}
+
+#button-download {
+  width: 100%;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(180deg, #005cd6 0%, #00afd6 100%);
+  border-radius: 11px;
+}
+
+#button-download:active {
+  position: relative;
+  top: 1px;
+}
+
+#title-button {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#date-button {
+
+}
+
+a{
+  width: 100%;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .content {
+    width: 600px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #button-download{
+    width: 100%;
+  }
+}
